@@ -1,17 +1,11 @@
 
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-  ## License
-    MIT
-    
-  https://opensource.org/licenses/MIT
 
-
-
-# sdfsadfsadf
+# README Generator
 
 ## Description
-asdfsadfdsa
+I created this README generator program so that users can quickly and easily make a professional README.md file for their various repositories. I did this to help save users time when creating their README's and quickly move on to other aspects of their projects.
 
 ## Table of Contents
 - [Installation](#installation)
@@ -22,19 +16,24 @@ asdfsadfdsa
 - [Questions](#questions)
 
 ## Installation
-dffsadfsdaf
+N/A
 
 ## Usage
-dsfsdafads
+To use, you simply open your terminal and type node index.js using the correct pathway to the file. You will then be prompted by a series of questions to answer regarding your README. After you finish answering all questions a README file will be automatically generated! It will include a license badge of your selected license at the top as well as a table of contents with links to the variouus sections. It will also create links for your GitHub profile and email address under the questions section.
 
- ## License
-MIT
+
+  ## License
+    MIT
+    
+  https://opensource.org/licenses/MIT
+
+
 
 ## Contributing
-dsafsdaf
+At this time no further contributions are needed.
 
 ## Tests
-asdfsdaf
+N/A
 
 ## Questions
 GitHub: [pauletters](https://github.com/pauletters)
