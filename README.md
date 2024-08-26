@@ -33,7 +33,7 @@ To use, you simply open your terminal and type node index.js using the correct p
 At this time no further contributions are needed.
 
 ## Tests
-Below is a link to a video of a sample README being created.
+Below is a link to a video of a sample README being created. There is one for ScreenCastify and one for Google Drive.  They are the same video but feel free to choose whichever!
 https://drive.google.com/file/d/1LjZ4mqHSOVHYktlrs6KSboskx5bhbq7h/view
 
 ## Questions
