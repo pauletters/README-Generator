@@ -1,8 +1,7 @@
 // These are the required packages for this project
 import inquirer from 'inquirer';
 import fs from 'fs';
-import  generateMarkdown  from './utils/generateMarkdown.js';
-import { type } from 'os';
+import  { generateMarkdown, generateBadge }  from './utils/generateMarkdown.js';
 
 // These are the array of questions that will be asked to the user along with a function to fill the template with the user's answers
 function promptUser() {
@@ -55,20 +54,17 @@ function promptUser() {
         }
     ];
 
-    // const answers = await inquirer.prompt(questions);
-    // const markdown = generateMarkdown(answers);
-    // fs.writeFileSync('README.md', markdown);
 
     inquirer.prompt(questions).then((answers) => {
         const userReadMe = fillTemplate(answers);
         writeFile(userReadMe);
-        // generateMarkdown(answers);
     });
 }
+
 // Function to initialize app
 function fillTemplate(answers) {
     return`
-${generateMarkdown(answers)}
+${generateBadge(answers)}
 
 # ${answers.title}
 
@@ -89,8 +85,7 @@ ${answers.installation}
 ## Usage
 ${answers.usage}
 
- ## License
-${answers.license}
+${generateMarkdown(answers)}
 
 ## Contributing
 ${answers.contributing}
